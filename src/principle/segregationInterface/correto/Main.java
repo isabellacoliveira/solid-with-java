@@ -6,7 +6,7 @@ import principle.segregationInterface.errado.Trabalhador;
 
 public class Main {
     public static void main(String[] args) {
-        principle.segregationInterface.errado.Trabalhador funcionario = new Funcionario();
+        Trabalhador funcionario = new Funcionario();
         funcionario.trabalhar();
         funcionario.comer();
         funcionario.dormir();
